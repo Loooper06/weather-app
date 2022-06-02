@@ -15,7 +15,7 @@ const ForeCastBox = (props) => {
         <Row>
           {forecastday && (
             <>
-              <Col xs={12} md={12} className="ps-0 pe-1">
+              <Col xs={12} md={12} className="ps-md-0 pe-md-1">
                 <div className="forecastdayContainer">
                   <div className="forecastdayBox">
                     <div className="forecastDate">
@@ -84,7 +84,7 @@ const ForeCastBox = (props) => {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} md={12} className="pe-1 ps-1 mt-2">
+              <Col xs={12} md={12} className="pe-md-1 ps-md-0 mt-2">
                 <div className="forecastdayContainer">
                   <div className="forecastdayBox">
                     <div className="forecastDate">

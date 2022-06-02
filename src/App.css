@@ -70,6 +70,7 @@
   color: #fff;
   caret-color: #fff;
   outline: none;
+  margin-top: 20px;
 }
 
 .searchBarForm input::placeholder {
@@ -82,6 +83,7 @@
   border: none;
   border-radius: 4px;
   font-weight: 500;
+margin-top: 20px;
 }
 
 .searchSubmitButton svg {
@@ -106,4 +108,36 @@
   background-position: center center;
 }
 
-/* Search Result */
+/* Responsive Queries */
+
+@media screen and (max-width : 800px) {
+    .searchBarText {
+      width: 100%;
+      padding: 50px;
+    }
+
+    .searchBarForm{
+      width: 100%;
+      flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width : 576px) {
+  .searchBarForm input {
+    width: 100%;
+  }
+  .searchBarForm form {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width : 716px) {
+    .searchBar {
+      height: 100%!important;
+    }
+
+    .searchWrapper{
+      padding: 30px 0;
+    }
+}
