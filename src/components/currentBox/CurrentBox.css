@@ -1,0 +1,134 @@
+.currentBox {
+    border-radius: 10px;
+    height: max-content;
+    height: max-content;
+}
+
+.cuurentBoxLocation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.currentBoxCountry {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.currentBoxCity h2{
+    color: transparent;
+    font-size: 60px;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.9);
+}
+
+.cuurentBoxLocation svg {
+    color: #fff;
+}
+
+.cuurentBoxLocation h6 {
+    margin: 0 5px;
+    color: #fff;
+}
+
+.dayMode {
+    background-image: url("./../../../public/images/dayMode.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nightMode {
+    background-image: url("./../../../public/images/nightMode.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.currentBoxMainContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.currentBoxWearherCondition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 35px;
+    border-radius: 10px;
+}
+
+.weatherConditionDayMode {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.weatherConditionNightMode {
+    background-color: #00004293;
+}
+
+.currentBoxWearherCondition img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.currentBoxWearherCondition h6 {
+    margin-top: 15px;
+}
+
+.dayModeText {
+    color: #000042;
+}
+
+.nightModeText {
+    color: #fff;
+}
+
+.currentBoxWearherTemp {
+    text-align: right;
+    position: absolute;
+    top: 130px;
+    right: -30px;
+}
+
+.currentBoxWearherTemp h1 {
+    color: transparent;
+    -webkit-text-stroke: 3px rgba(255, 255, 255, 0.9);
+    font-size: 100px;
+    transform: rotate(-90deg) scale(1.1, 1.2);
+}
+
+.currentBoxMoreDetails {
+    width: 100%;
+    /* height: 130px; */
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.moreDetailBox {
+    text-align: center;
+}
+
+.moreDetailBox img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.moreDetailBox p {
+    margin: 0;
+}
+
+.wrapper {
+    height: 245px;
+}

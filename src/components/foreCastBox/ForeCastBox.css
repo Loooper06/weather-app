@@ -1,0 +1,69 @@
+.forecastdayContainer {
+    background-image: url('./../../../public/images/forecastBg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.forecastdayBox {
+    border-radius: 10px;
+    background-color: #00004291;
+}
+
+.forecastDate {
+    color: #fff;
+    padding: 15px;
+}
+
+.forecastDate h5 {
+    font-size: 15px;
+}
+
+.forecastAvgsDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.forecastdayBoxIcon {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.forecastAvgs {
+    font-size: 14px;
+    color: #fff;
+}
+
+.forecastSunMoonSet {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 7px 10px;
+    color: #fff;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.forecastHours {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+
+.hours {
+    border-radius: 10px;
+    width: calc(calc(100% /4) - 5px);
+    background-color: rgba(255, 255, 255, .7);
+}

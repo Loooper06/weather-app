@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Hedaer */
+.weatherHeader {
+  width: 100%;
+  background-color: #000042;
+  color: #fff;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 40px;
+}
+
+.headerLogo {
+  width: 330px;
+  height: 140px;
+}
+
+.headerLogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* SearchBar */
+
+.searchBar {
+  width: 100%;
+  background: url('./../public/images/searchBarBg_1.jpg') no-repeat;
+  background-position-y: center;
+  background-size: cover;
+  transition: all .4s linear;
+}
+
+.searchWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #00004291;
+  color: #fff;
+}
+
+.searchBarText {
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.searchBarText h3 {
+  font-weight: 700;
+}
+
+.searchBarText h4 {
+  font-weight: 300;
+}
+
+.searchBarForm {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.searchBarForm h4 {
+  margin: 10px 0 25px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchBarForm input {
+  width: 500px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  caret-color: #fff;
+  outline: none;
 }
+
+.searchBarForm input::placeholder {
+  color: #fff;
+}
+
+.searchSubmitButton {
+  margin: 0 30px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.searchSubmitButton svg {
+  color: #000042 !important;
+}
+
+.cityNotFound {
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 50px;
+}
+
+.cityNotFound h1 {
+  font-weight: 800;
+  background: url('./../public/images/nightMode.jpg');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  font-size: 60px;
+  background-size: contain;
+  background-position: center center;
+}
+
+/* Search Result */
